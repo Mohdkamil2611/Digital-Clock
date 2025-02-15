@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+    padding-top: 50px;
+    position: relative;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+.block{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#5a0d47 ,#ce2261 );
+    position: relative;
+}
+
+.container{
+    width: 800px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius:10px ;
+}
+
+.clock{
+    height: 150%;
+    width: 100%;
+    background: linear-gradient(340deg,#7b1060 ,#e9256d );
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8); 
+    transform-style: preserve-3d;
+    
+}
+
+.time{
+    font-size: 4rem;
+    padding: 10px;
+    
+
+}
+
+.date{
+    font-size: 4rem;
+    margin-left: 35px;
+    color: rgb(11, 10, 10);
+    font-style: oblique;
+    transform-style: preserve-3d;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: #e6c832;
+    border-radius: 1rem;
+}
+
+#day{
+    
+    margin-right: 25px;
+    font-style: bold;
+    color: #e9e3cc;
+    transform-style: preserve-3d;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: #820088;
+    border-radius: 1rem;
+    
+}
+
+#hrs{
+    width: 10%;
+    height: 10%;
+    background: linear-gradient(45deg,#900223 ,#ea0075 );
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+    transform-style: preserve-3d; 
+    backdrop-filter: blur(40px);
+    color: rgb(247, 242, 242);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 5rem;
+    transform: scale(3);
+}
+
+#mins{
+        width: 10%;
+        height: 10%;
+        background:linear-gradient(45deg,#900223 ,#ea0075 );
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+        transform-style: preserve-3d;
+        backdrop-filter: blur(40px);
+        color: rgb(248, 239, 239);
+        border-radius: 10px;
+        text-align: center;
+        font-size: 5rem;
+        
+}
+
+#sec{
+    width: 10%;
+    height: 10%;
+    background: linear-gradient(45deg,#900223 ,#ea0075 );
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+    transform-style: preserve-3d;
+    backdrop-filter: blur(40px);
+    color: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+
+
